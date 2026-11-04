@@ -449,3 +449,17 @@ html{scroll-padding-top:calc(var(--header-height) + 24px)}
  .rhapis-photo-frame{margin:0}
  .rhapis-photo-frame>img{height:100%}
 }
+
+/* A single editorial triptych, using unchanged real product photographs. */
+.retail-collage{display:grid;grid-template-columns:1fr 1.15fr 1fr;align-items:center;gap:clamp(12px,2.5vw,36px);padding:24px 0 44px}
+.retail-collage figure{min-width:0;margin:0;padding:8px;background:var(--paper);border:1px solid var(--rule);border-radius:var(--radius);box-shadow:var(--shadow-image)}
+.retail-collage img{width:100%;height:auto;object-fit:contain;border-radius:2px}
+.retail-collage .collage-home{transform:rotate(-3deg)}
+.retail-collage .collage-gift{transform:rotate(3deg)}
+.retail-collage .collage-tall{position:relative;z-index:1}
+@media(max-width:600px){.retail-collage{grid-template-columns:1fr 1fr;gap:12px;padding:18px 4px 30px}.retail-collage figure{padding:4px}.retail-collage .collage-tall{grid-column:1 / -1;grid-row:1;width:66%;justify-self:center}.retail-collage .collage-home,.retail-collage .collage-gift{align-self:start}}
+
+/* Source-backed catalogue, November 2026. Preserve the original page layout. */
+.catalog-heading{max-width:780px;padding:36px 0 24px}.catalog-heading h2{margin:8px 0 18px}.catalog-source-note,.catalog-budget-note{font-size:14px;line-height:1.65;opacity:.8}.catalog-controls{display:grid;grid-template-columns:minmax(160px,2fr) minmax(130px,1fr) minmax(160px,1fr) auto;gap:18px;align-items:end;margin:12px 0 24px}.catalog-controls label{display:grid;gap:8px;font-size:13px}.catalog-controls input,.catalog-controls select{width:100%;min-width:0;min-height:46px;border:1px solid #aeb8a7;border-radius:0;background:#fffdf7;color:#183e32;padding:10px;font:inherit}.catalog-controls button{min-height:46px}.source-product{min-width:0}.source-product .source-description{font-size:13px;line-height:1.6;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;white-space:pre-line;min-height:62px;margin:12px 0}.source-price{font-size:17px;font-weight:600;line-height:1.4;margin:8px 0}.source-status{font-size:12px;opacity:.75;margin:8px 0}.source-description-full{white-space:pre-line}.catalog-review-note{padding:12px 15px;border-left:2px solid #ac8f52;background:#f2eee3;font-size:14px}.customer-story-grid{display:grid;grid-template-columns:1fr 1fr;gap:32px}.customer-story{margin:0;display:grid;grid-template-columns:1fr 1fr;gap:24px;align-items:center}.customer-story img{width:100%;height:280px;object-fit:contain;background:#f1ede4}.customer-story blockquote{margin:0;font-family:'Cormorant Garamond',serif;font-size:26px;line-height:1.3}.customer-story figcaption p{font-size:12px;opacity:.7}.customer-stories .eyebrow,.catalog-heading .eyebrow{font-size:12px;letter-spacing:.14em}.source-product .plant-card-title h3{overflow-wrap:anywhere}.source-product .plant-price{min-height:44px}
+@media(max-width:900px){.catalog-controls{grid-template-columns:1fr 1fr}.customer-story{grid-template-columns:1fr}.customer-story-grid{gap:20px}.customer-story img{height:320px}}
+@media(max-width:550px){.catalog-controls{gap:14px}.catalog-controls label:first-child{grid-column:1/-1}.catalog-controls button{grid-column:1/-1}.customer-story-grid{grid-template-columns:1fr}.customer-story{grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:16px}.customer-story img{height:230px}.customer-story blockquote{font-size:23px}.catalog-heading{padding-top:24px}.source-price{font-size:15px}}
