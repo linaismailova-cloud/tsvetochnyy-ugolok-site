@@ -21,7 +21,6 @@ export const catalogTranslations = {
  'Цена по запросу':'Narx so‘rov bo‘yicha',
  'В публикации несколько цен или вариантов. Состав и итоговую цену подтвердим перед заказом.':'E’londa bir nechta narx yoki variant bor. To‘plam tarkibi va yakuniy narxni buyurtmadan oldin tasdiqlaymiz.',
  'Размер в исходной публикации неоднозначен. Уточните высоту конкретного растения.':'Asl e’londagi o‘lcham aniq emas. Tanlangan o‘simlikning bo‘yini aniqlashtiring.',
- 'Доступно фото-превью. Более подробное фото можно запросить перед заказом.':'Suratning kichik nusxasi mavjud. Buyurtmadan oldin batafsilroq surat so‘rashingiz mumkin.',
  'Данные требуют уточнения.':'Ma’lumotlarni aniqlashtirish kerak.',
  'Подтвердим перед заказом':'Buyurtmadan oldin tasdiqlaymiz',
  'Уточним наличие, размер, кашпо и доставку. Цена в публикации может измениться. Открытие Telegram не отправляет сообщение и не оформляет заказ.':'Mavjudlik, o‘lcham, bezak tuvagi va yetkazishni aniqlashtiramiz. E’londagi narx o‘zgarishi mumkin. Telegramni ochish xabar yubormaydi va buyurtmani rasmiylashtirmaydi.',
@@ -39,7 +38,6 @@ export function catalogText(value,target=language){
  const key=value.trim();let translated=catalogTranslations[key];
  if(translated===undefined&&/^\d[\d\s\u00a0]* сум$/.test(key))translated=key.replace('сум','so‘m');
  if(translated===undefined&&key.startsWith('Фото покупателя · '))translated=key.replace('Фото покупателя','Xaridor surati');
- if(translated===undefined&&key.startsWith('Публикация: '))translated=key.replace('Публикация:','E’lon:').replace('Данные сверены 04.11.2026. Наличие не подтверждено.','Ma’lumotlar 04.11.2026 kuni tekshirilgan. Mavjudlik tasdiqlanmagan.');
  return translated===undefined?t(value,target):value.replace(key,translated);
 }
 export function localizeCatalog(root){
