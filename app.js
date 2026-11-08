@@ -1,5 +1,5 @@
 import { initPots, potText } from '/tsvetochnyy-ugolok-site/pots.js?v=20261104-2';
-import { initCatalog, initReviews } from '/tsvetochnyy-ugolok-site/catalog.js?v=20261104-2';
+import { initCatalog, initReviews } from '/tsvetochnyy-ugolok-site/catalog.js?v=20261108-1';
 import { t, language, localize, languageSwitcher, updateLanguageLinks, saveLanguageDraft, restoreLanguageDraft } from '/tsvetochnyy-ugolok-site/i18n.js?v=20261017-12';
 const page = document.body.dataset.page;
 const photoFiles = {aglaonema:'aglaonema-full',epipremnum:'epipremnum-full',rhapis:'rhapis-real',care:'care-full'};
