@@ -621,12 +621,10 @@ export const products = [
       200000
     ],
     "date": "2026-09-10",
-    "image": "/tsvetochnyy-ugolok-site/assets/catalog/plant-040.webp",
-    "width": 180,
-    "height": 320,
-    "review": [
-      "low_resolution_preview"
-    ],
+    "image": "/tsvetochnyy-ugolok-site/assets/catalog/plant-040-20261108.webp",
+    "width": 720,
+    "height": 1280,
+    "review": [],
     "tags": [
       "flowering"
     ]
@@ -840,12 +838,10 @@ export const products = [
       175000
     ],
     "date": "2026-09-29",
-    "image": "/tsvetochnyy-ugolok-site/assets/catalog/plant-053.webp",
-    "width": 180,
-    "height": 320,
-    "review": [
-      "low_resolution_preview"
-    ],
+    "image": "/tsvetochnyy-ugolok-site/assets/catalog/plant-053-20261108.webp",
+    "width": 720,
+    "height": 1280,
+    "review": [],
     "tags": []
   },
   {
@@ -951,12 +947,10 @@ export const products = [
       145000
     ],
     "date": "2026-10-04",
-    "image": "/tsvetochnyy-ugolok-site/assets/catalog/plant-060.webp",
-    "width": 180,
-    "height": 320,
-    "review": [
-      "low_resolution_preview"
-    ],
+    "image": "/tsvetochnyy-ugolok-site/assets/catalog/plant-060-20261108.webp",
+    "width": 720,
+    "height": 1280,
+    "review": [],
     "tags": [
       "flowering"
     ]
@@ -1109,12 +1103,10 @@ export const products = [
       225000
     ],
     "date": "2026-10-12",
-    "image": "/tsvetochnyy-ugolok-site/assets/catalog/plant-070.webp",
-    "width": 180,
-    "height": 320,
-    "review": [
-      "low_resolution_preview"
-    ],
+    "image": "/tsvetochnyy-ugolok-site/assets/catalog/plant-070-20261108.webp",
+    "width": 720,
+    "height": 1280,
+    "review": [],
     "tags": [
       "planter"
     ]
@@ -1362,12 +1354,11 @@ export const products = [
       350000
     ],
     "date": "2026-10-18",
-    "image": "/tsvetochnyy-ugolok-site/assets/catalog/plant-086.webp",
-    "width": 180,
-    "height": 320,
+    "image": "/tsvetochnyy-ugolok-site/assets/catalog/plant-086-20261108.webp",
+    "width": 720,
+    "height": 1280,
     "review": [
-      "ambiguous_dimensions_in_source",
-      "low_resolution_preview"
+      "ambiguous_dimensions_in_source"
     ],
     "tags": []
   },
@@ -1444,12 +1435,10 @@ export const products = [
       420000
     ],
     "date": "2026-10-18",
-    "image": "/tsvetochnyy-ugolok-site/assets/catalog/plant-091.webp",
-    "width": 180,
-    "height": 320,
-    "review": [
-      "low_resolution_preview"
-    ],
+    "image": "/tsvetochnyy-ugolok-site/assets/catalog/plant-091-20261108.webp",
+    "width": 720,
+    "height": 1280,
+    "review": [],
     "tags": [
       "large"
     ]
@@ -1556,12 +1545,10 @@ export const products = [
       190000
     ],
     "date": "2026-10-19",
-    "image": "/tsvetochnyy-ugolok-site/assets/catalog/plant-098.webp",
-    "width": 180,
-    "height": 320,
-    "review": [
-      "low_resolution_preview"
-    ],
+    "image": "/tsvetochnyy-ugolok-site/assets/catalog/plant-098-20261108.webp",
+    "width": 720,
+    "height": 1280,
+    "review": [],
     "tags": []
   },
   {
@@ -1759,12 +1746,11 @@ export const products = [
       750000
     ],
     "date": "2026-10-25",
-    "image": "/tsvetochnyy-ugolok-site/assets/catalog/plant-111.webp",
-    "width": 180,
-    "height": 320,
+    "image": "/tsvetochnyy-ugolok-site/assets/catalog/plant-111-20261108.webp",
+    "width": 720,
+    "height": 1280,
     "review": [
-      "ambiguous_dimensions_in_source",
-      "low_resolution_preview"
+      "ambiguous_dimensions_in_source"
     ],
     "tags": []
   },
@@ -2240,12 +2226,10 @@ export const products = [
       750000
     ],
     "date": "2026-11-03",
-    "image": "/tsvetochnyy-ugolok-site/assets/catalog/plant-142.webp",
-    "width": 180,
-    "height": 320,
-    "review": [
-      "low_resolution_preview"
-    ],
+    "image": "/tsvetochnyy-ugolok-site/assets/catalog/plant-142-20261108.webp",
+    "width": 720,
+    "height": 1280,
+    "review": [],
     "tags": []
   },
   {
@@ -2257,12 +2241,10 @@ export const products = [
       600000
     ],
     "date": "2026-11-03",
-    "image": "/tsvetochnyy-ugolok-site/assets/catalog/plant-143.webp",
-    "width": 180,
-    "height": 320,
-    "review": [
-      "low_resolution_preview"
-    ],
+    "image": "/tsvetochnyy-ugolok-site/assets/catalog/plant-143-20261108.webp",
+    "width": 720,
+    "height": 1280,
+    "review": [],
     "tags": []
   },
   {
@@ -2274,12 +2256,10 @@ export const products = [
       920000
     ],
     "date": "2026-11-03",
-    "image": "/tsvetochnyy-ugolok-site/assets/catalog/plant-144.webp",
-    "width": 180,
-    "height": 320,
-    "review": [
-      "low_resolution_preview"
-    ],
+    "image": "/tsvetochnyy-ugolok-site/assets/catalog/plant-144-20261108.webp",
+    "width": 720,
+    "height": 1280,
+    "review": [],
     "tags": [
       "large"
     ]
@@ -2293,12 +2273,11 @@ export const products = [
       968000
     ],
     "date": "2026-11-03",
-    "image": "/tsvetochnyy-ugolok-site/assets/catalog/plant-145.webp",
-    "width": 180,
-    "height": 320,
+    "image": "/tsvetochnyy-ugolok-site/assets/catalog/plant-145-20261108.webp",
+    "width": 720,
+    "height": 1280,
     "review": [
-      "ambiguous_dimensions_in_source",
-      "low_resolution_preview"
+      "ambiguous_dimensions_in_source"
     ],
     "tags": []
   },
@@ -2311,12 +2290,10 @@ export const products = [
       520000
     ],
     "date": "2026-11-03",
-    "image": "/tsvetochnyy-ugolok-site/assets/catalog/plant-146.webp",
-    "width": 180,
-    "height": 320,
-    "review": [
-      "low_resolution_preview"
-    ],
+    "image": "/tsvetochnyy-ugolok-site/assets/catalog/plant-146-20261108.webp",
+    "width": 720,
+    "height": 1280,
+    "review": [],
     "tags": [
       "large"
     ]
@@ -2330,12 +2307,10 @@ export const products = [
       680000
     ],
     "date": "2026-11-03",
-    "image": "/tsvetochnyy-ugolok-site/assets/catalog/plant-147.webp",
-    "width": 180,
-    "height": 320,
-    "review": [
-      "low_resolution_preview"
-    ],
+    "image": "/tsvetochnyy-ugolok-site/assets/catalog/plant-147-20261108.webp",
+    "width": 720,
+    "height": 1280,
+    "review": [],
     "tags": [
       "large"
     ]
@@ -2349,12 +2324,10 @@ export const products = [
       750000
     ],
     "date": "2026-11-04",
-    "image": "/tsvetochnyy-ugolok-site/assets/catalog/plant-148.webp",
-    "width": 180,
-    "height": 320,
-    "review": [
-      "low_resolution_preview"
-    ],
+    "image": "/tsvetochnyy-ugolok-site/assets/catalog/plant-148-20261108.webp",
+    "width": 720,
+    "height": 1280,
+    "review": [],
     "tags": [
       "large"
     ]
@@ -2368,12 +2341,10 @@ export const products = [
       590000
     ],
     "date": "2026-11-04",
-    "image": "/tsvetochnyy-ugolok-site/assets/catalog/plant-149.webp",
-    "width": 180,
-    "height": 320,
-    "review": [
-      "low_resolution_preview"
-    ],
+    "image": "/tsvetochnyy-ugolok-site/assets/catalog/plant-149-20261108.webp",
+    "width": 720,
+    "height": 1280,
+    "review": [],
     "tags": [
       "flowering",
       "large"
@@ -2388,12 +2359,10 @@ export const products = [
       400000
     ],
     "date": "2026-11-04",
-    "image": "/tsvetochnyy-ugolok-site/assets/catalog/plant-150.webp",
-    "width": 180,
-    "height": 320,
-    "review": [
-      "low_resolution_preview"
-    ],
+    "image": "/tsvetochnyy-ugolok-site/assets/catalog/plant-150-20261108.webp",
+    "width": 720,
+    "height": 1280,
+    "review": [],
     "tags": [
       "large"
     ]
@@ -2407,12 +2376,10 @@ export const products = [
       720000
     ],
     "date": "2026-11-04",
-    "image": "/tsvetochnyy-ugolok-site/assets/catalog/plant-151.webp",
-    "width": 180,
-    "height": 320,
-    "review": [
-      "low_resolution_preview"
-    ],
+    "image": "/tsvetochnyy-ugolok-site/assets/catalog/plant-151-20261108.webp",
+    "width": 720,
+    "height": 1280,
+    "review": [],
     "tags": [
       "large"
     ]

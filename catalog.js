@@ -1,5 +1,5 @@
 import {localizeCatalog, catalogText} from './catalog-i18n.js?v=20261108-1';
-import {products, reviews} from './catalog-data.js';
+import {products, reviews} from './catalog-data.js?v=20261108-2';
 import {t, language, updateLanguageLinks} from './i18n.js?v=20261017-12';
 const esc = value => String(value ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const money = value => new Intl.NumberFormat('ru-RU').format(value) + ' сум';
